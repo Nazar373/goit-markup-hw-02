@@ -3,14 +3,14 @@
   --logo-font: 'Raleway';
   --text-color: #212121;
   --accent-color: #ffffff;
-  --logo-color: #2196f3;
+  --logo-span-color: #2196f3;
   --p-color: #757575;
 }
 body{ background-color: white;
   color:#FFFFFF ;
 font-family: 'Roboto' , sans-serif}
 
-.logo-span { color: #2196F3} 
+.logo-span { color:var(--logo-span-color) }
 .logo { font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
