@@ -1,0 +1,136 @@
+:root {
+  --main-font: 'Roboto';
+  --logo-font: 'Raleway';
+  --text-color: #212121;
+  --accent-color: #ffffff;
+  --logo-color: #2196f3;
+  --p-color: #757575;
+}
+body{ background-color: white;
+  color:#FFFFFF ;
+font-family: 'Roboto' , sans-serif}
+
+.logo-span { color: #2196F3} 
+.logo { font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+color:black;}
+.navigation { font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }
+.site-nav { color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;}
+.site-nav.current { color: #2196F3; }
+.site-nav:hover {
+  color:#757575
+}
+.site-nav:focus {
+  color:#2196F3
+}
+.phone { 
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+color: #757575;
+}
+.phone:hover {
+  color:#2F303A
+}
+.phone:focus {
+  color: #2196F3;
+}
+
+.title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+color:#FFFFFF ;
+}
+.one-section {
+background-color: #2F303A;
+  ;
+}
+.title-button {
+background-color: #2196F3;
+color: #FFFFFF ;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+cursor: pointer ;
+}
+.title-button:hover {
+  background-color: #212121;
+}
+.title-list {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  color: #212121 ;
+}
+.item-list {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+color: #757575 ;
+}
+.aside { background-color: #F5F4FA;}
+.lead-aside {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+color:#212121
+}
+.link-aside {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+color:#757575;
+}
+.box-aside { 
+  background-color: #FFFFFF;
+}
+.footer {
+  background-color: #2F303A;
+}
+.adress {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+color:#FFFFFF
+}
+.adress:hover { color:#2196F3}
+.mobile {font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color:#757575}
+.mobile:hover { color:#FFFFFF}
+.mobile:focus { color:#2196F3}
+.logo-footer { font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+color:#FFFFFF;}
+.btn {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+color:#212121;
+background-color: #F5F4FA;
+}
+.btn:hover {
+  background-color: #2196F3;
+  color:#F5F4FA;
+  cursor:pointer ;
+}
