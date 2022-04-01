@@ -7,28 +7,29 @@
   --p-color: #757575;
 }
 body{ background-color: white;
-  color:#FFFFFF ;
-font-family: 'Roboto' , sans-serif}
-
+  color:#212121 ;
+  font-family: 'Roboto' , sans-serif ;
+  font-style: normal;
+  font-weight: 400; }
+ul { list-style: none;}
 .logo-span { color:var(--logo-span-color) }
 .logo { font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-color:black;}
-.navigation { font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
+  color:black;
+  text-decoration: none;
+  letter-spacing: 0.03em;}
+.navigation { 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
     }
 .site-nav { color: #212121;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;}
+  font-weight: 500;
+  text-decoration: none;}
 .site-nav.current { color: #2196F3; }
 .site-nav:hover {
   color:#757575
@@ -37,11 +38,13 @@ color:black;}
   color:#2196F3
 }
 .phone { 
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-color: #757575;
-}
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  }
 .phone:hover {
   color:#2F303A
 }
@@ -50,52 +53,59 @@ color: #757575;
 }
 
 .title {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-color:#FFFFFF ;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color:#FFFFFF ;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0,06em;
 }
 .one-section {
-background-color: #2F303A;
+  background-color: #2F303A;
   ;
 }
 .title-button {
-background-color: #2196F3;
-color: #FFFFFF ;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-cursor: pointer ;
+  background-color: #2196F3;
+  color: #FFFFFF ;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer ;
+  text-align: center;
+  letter-spacing: 0.06em
 }
 .title-button:hover {
   background-color: #212121;
 }
 .title-list {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
-  color: #212121 ;
-}
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:#212121;}
 .item-list {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-color: #757575 ;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575 ;
 }
 .aside { background-color: #F5F4FA;}
 .lead-aside {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-color:#212121
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .link-aside {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-color:#757575;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .box-aside { 
   background-color: #FFFFFF;
@@ -104,33 +114,48 @@ color:#757575;
   background-color: #2F303A;
 }
 .adress {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-color:#FFFFFF
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color:#FFFFFF ; 
+  text-decoration: none;
 }
 .adress:hover { color:#2196F3}
-.mobile {font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  color:#757575}
+.mobile {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color:#757575 ;
+  text-decoration: none;
+}
+  
 .mobile:hover { color:#FFFFFF}
 .mobile:focus { color:#2196F3}
 .logo-footer { font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-color:#FFFFFF;}
+  color:#FFFFFF;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  list-style-type: none;}
 .btn {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-color:#212121;
-background-color: #F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:#212121;
+  background-color: #F5F4FA;
 }
 .btn:hover {
   background-color: #2196F3;
   color:#F5F4FA;
   cursor:pointer ;
 }
+.lead-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color:#212121;}
